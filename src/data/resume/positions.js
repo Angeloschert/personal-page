@@ -7,7 +7,7 @@ const positions = [
       'Developed the alerting system using Prometheus to monitor the cluster health and visualize the system spectrums of worker nodes on Grafana',
       'Automated the procedures using Ansible playbooks to instantiate the subscription for Grafana operator and service accounts, and to create the dashboard UI with unique routings',
       'Contributed to the deployment pipeline for worker node VM provisioning under from template VMs, their configurations on network/hardwares in vSphere Center and root password change in batches',
-      'Responsible for pipeline environment health checks and automated cleanups in multiple namespaces including goss checks, docker pruning and orphaned k8s volumes cleanup'
+      'Responsible for pipeline environment health checks and automated cleanups in multiple namespaces including goss checks, docker pruning and orphaned k8s volumes cleanup',
     ],
   },
   {
