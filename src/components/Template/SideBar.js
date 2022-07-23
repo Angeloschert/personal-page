@@ -18,8 +18,8 @@ const SideBar = () => (
 
     <section className="blurb">
       <h2>About</h2>
-      <p>Hi, I&apos;m Zhuoheng Huang, also known as Angelo Huang. I like building things.
-        I am a fourth-year student at University of Toronto majoring in Computer Science
+      <p>Hi, I&apos;m Zhuoheng Huang, also known as Angelo Huang. I like building crazy stuffs.
+        I graduated from University of Toronto with Honors Bachelor of Science in Computer Science
         and Mathematics
       </p>
       <ul className="actions">

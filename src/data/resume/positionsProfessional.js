@@ -1,13 +1,28 @@
-const positions = [
+const positionsProfessional = [
   {
     company: 'IBM',
-    position: 'Software Engineer',
-    daterange: 'May 2021 - Present',
+    position: 'Software Engineer @ Cognos Analytics',
+    daterange: 'September 2021 - Present',
+    points: [
+      'Working in agile framework on backend feature development for the modeling service (MOSER) in the Cognos Analytics (CA) Software using Java',
+      'Augmented the MySQL database schema loading and metadata feeding across different microservices during the asynchronous tasking procedure',
+      'Developed MOSER APIs to generate mappings for overlapping objects between data modules and progressively update the table import status in REST responses',
+      'Upgraded components in Modelling UI for better performance in object relationship presentation and other client experience, using React, Babel, Grunt',
+      'Translated Java source codes to ECMAScript 6 to be used in the MOSER client UI',
+      'Wrote JUnit tests for APIs and built the project with Maven, monitored remote build status with Jenkins and service incidents with PagerDuty and IBM Cloud',
+      'Transitioned CA monolithic release to DaaS microservices within Docker containers running on Kubernetes',
+    ],
+  },
+  {
+    company: 'IBM',
+    position: 'Software Engineer @ Watson Health Imaging',
+    daterange: 'May 2021 - August 2021',
     points: [
       'Developed the alerting system using Prometheus to monitor the cluster health and visualize the system spectrums of worker nodes on Grafana',
       'Automated the procedures using Ansible playbooks to instantiate the subscription for Grafana operator and service accounts, and to create the dashboard UI with unique routings',
       'Contributed to the deployment pipeline for worker node VM provisioning under from template VMs, their configurations on network/hardwares in vSphere Center and root password change in batches',
-      'Responsible for pipeline environment health checks and automated cleanups in multiple namespaces including goss checks, docker pruning and orphaned k8s volumes cleanup',
+      'Developed the Pod Condition Monitor in Python and Golang that detects ill-conditioned pods and posts notifications to Slack using Slack api',
+      'Responsible for pipeline environment health checks and automated cleanups over 200 namespaces including goss checks, docker pruning and orphaned k8s volumes cleanup',
     ],
   },
   {
@@ -24,4 +39,4 @@ const positions = [
   },
 ];
 
-export default positions;
+export default positionsProfessional;
